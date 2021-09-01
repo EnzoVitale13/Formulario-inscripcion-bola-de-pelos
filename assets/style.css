@@ -1,0 +1,19 @@
+header {
+    background-color: dimgray;
+    text-align: center;
+}
+
+body {
+    background-color: darkgray;
+    text-align: center;
+}
+
+section {
+    background-color: dimgrey;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}

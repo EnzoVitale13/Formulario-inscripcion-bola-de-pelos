@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel bola de pelos</title>
+  <link rel="stylesheet" href="/1617 clases Primer modulo/Clase 2/assets/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Formulario de inscripcion</h1>
+  </header>
+
+  <main>
+    <section class="Presentacion">
+      <h2>Bienvenido a Bola de Pelos</h2>
+      <p>
+        Completa nuestro formulario para que tu michi conozca la <strong>primer
+          hoteleria gatuna!</strong>
+      </p>
+    </section>
+
+    <section class="Formulario">
+      <form action="/" method="post">
+        <h2>Crear usuario y contraseña</h2>
+        <label>
+          Nombre del michi:<input type="text" name="Nombre de michi" id="nombre de michi" placeholder="Pelusa" />
+        </label>
+        <label>
+          Tu nombre:<input type="text" name="Nombre" id="Nombre" placeholder="Nombre" maxlength="20" />
+        </label>
+        <label>
+          Tu apellido:<input type="text" name="Apellido" id="apellido" placeholder="Apellido" maxlength="20" />
+        </label>
+
+        <br />
+        <br />
+
+        <label>
+          Tu E-mail:
+          <input type="email" name="email" id="email" placeholder="Meowlove@example.com" />
+        </label>
+        <label>
+          Contraseña:<input type="password" name="Contraseña" id="contraseña"
+            placeholder="Debe tener minimo 6 caracteres" maxlength="20" minlength="6" size="23" />
+        </label>
+
+        <h2>Describinos a tu michi, Queremos conocerlo!</h2>
+        <textarea name="Comentario" id="comentario" cols="30" rows="10"
+          placeholder="Contanos sus actividades favoritas, y si tiene algun cuidado especial a tenér en cuenta."></textarea>
+
+        <h2>Dejanos una foto para verlo</h2>
+        <input type="file" name="Foto del michi" id="Foto" accept="img/*">
+
+        <h2>Cuánto pesa aproximadamente?</h2>
+        <label>
+          <input type="radio" name="Peso" id="Peso1" /> 1kg a 2kg
+        </label>
+        <label>
+          <input type="radio" name="Peso" id="Peso2" checked />3kg a 4kg
+        </label>
+        <label>
+          <input type="radio" name="Peso" id="Peso3" />5kg a 6kg
+        </label>
+        <label>
+          <input type="radio" name="Peso" id="Peso4" />Otro
+        </label>
+
+        <h2>Historial veterinario</h2>
+        <label>
+          <input type="checkbox" name="opcion1" id="desparasitado">Desparasitación
+        </label>
+        <label>
+          <input type="checkbox" name="opcion2" id="vacunado">Vacunación
+        </label>
+        <label>
+          <input type="checkbox" name="opcion1" id="operado">Operaciones
+          <label>
+            <input type="checkbox" name="opcion2" id="castrado">Castración
+          </label>
+
+          <h2>Cuando es su Cumpleaños?</h2>
+          <label>
+            Fecha de nacimiento:<input type="date" name="Cumpleaños" id="cumpleaños">
+          </label>
+
+          <h2>Alimentación</h2>
+          <select name="Comida" id="Comida">
+            <option value="Alimento balanceado">Alimento balanceado</option>
+            <option value="Comida preparada" selected>Comida preparada</option>
+            <option value="Variado">Variado</option>
+            <option value="Otro">Otro</option>
+          </select>
+
+          <h2>Eso seria todo!</h2>
+          <p>Revisa tus datos antes de enviarnos la informacion</p>
+          <input type="submit" value="Enviar" id="submit">
+
+    </section>
+    </form>
+  </main>
+
+  <footer>
+
+    <strong>
+      <p>&copy;<a href="https://www.instagram.com/chernobyl97x/?hl=es">Enzo Vitale</a> -Bola de pelos-Nucba 2021</p>
+    </strong>
+
+  </footer>
+</body>
+</html>
