@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@500&display=swap');
+
+:root {
+    --main-dark: rgb(45, 49, 66);
+    --main-medium: rgb(79, 93, 117);
+    --main-light: rgb(239, 131, 84);
+    --main-alternate-light: rgb(191, 192, 192);
+}
+
+/* General */
+body {
+    margin: 0;
+    padding: 1%;
+    background-color: rgb(221, 99, 99);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+header {
+    margin:0%;
+    text-align: center;
+    padding: 0.5%;
+    background-color: var(--main-light);
+    border-radius: 25px;
+    margin-bottom: 1%;
+}
+
+
+
+/* Main */
+main {
+    text-align: center;
+    border-radius: 25px;
+    padding: 1%;
+    background-color:var(--main-dark);
+}
+
+main section.Presentacion{
+    background-color: var(--main-medium);
+    margin: auto;
+    width: 70%;
+    border-radius: 5px;
+}
+main section.formulario{
+    background-color: var(--main-light);
+    margin:auto;
+    width: 70%;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 0.5%;
+    text-align: center;
+    background-color: var(--main-dark);
+    margin: 1% 0% 1% 0%;
+    border-radius: 25px;
+}
+
+footer p {
+    color: yellowgreen;
+}
+footer p a {
+    text-decoration: none; 
+    color: var(--main-light);
+}
+
+footer p a:hover {
+    color:var(--main-alternate-light);
+}
